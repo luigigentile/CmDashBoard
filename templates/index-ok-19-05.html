@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load render_bundle from webpack_loader %}
+
+
+
+{% block content %}
+    <noscript>
+        <strong> Ci Dispiace ma il frontend non funziona senza JavaScript abilitato</strong>
+    </noscript>
+        <div id="root">
+        <h1> la prima app in Vue JS</h1>
+        </div>
+        <script type="text/javascript" src='http://127.0.0.1:3000/bundle.js'>   </script>
+  
+{% endblock %}

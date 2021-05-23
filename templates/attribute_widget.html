@@ -1,0 +1,35 @@
+{% if widget.value == None %}
+Please select a category/interface type
+{% elif not widget.value %}
+This category/interface type has no attributes defined
+{% else %}
+<div class="form-row">
+  {% for k, v in widget.value.items %}
+  <div class="form-row field-name">
+    <label for='{{ widget.name }}__{{k}}' class="{% if v.is_required%}required{% endif %}">
+      {{k}}<br />
+      {% if v.category %}
+      <span style="font-size:6pt">({{v.category}})</span>
+      {% endif %}
+    </label>
+    {% if v.choices %}
+    <select name="{{widget.name}}__{{k}}" {% if v.is_range %}multiple{% endif %} style="width:300px;">
+      <option value="">---</option>
+      {% for choice in v.choices %}
+      <option value="{{choice}}" {% if v.value == choice %}selected{% endif %}>{{choice}}</option>
+      {% endfor %}
+    </select>
+    {% else %}
+    {% if v.datatype == "bool" %}
+    <input type="checkbox" name="{{ widget.name }}__{{k}}" value="True" {% if v.value %}checked{% endif %} />
+    {% else %}
+    <input type="text" name="{{ widget.name }}__{{k}}" value="{{ v.value }}" style="width:200px" {% include "django/forms/widgets/attrs.html" %}>
+    <span style="color: #aaa;margin-left:10px">
+      {{v.unit}} {% if v.unit_description %}[{{v.unit_description}}]{% endif %} {% if v.is_range %}(Range){% endif %}
+    </span>
+    {% endif %}
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

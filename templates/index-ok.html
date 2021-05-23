@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load render_bundle from webpack_loader %}
+
+
+
+{% block content %}
+    <noscript>
+        <strong> Ci Dispiace ma il frontend non funziona senza JavaScript abilitato</strong>
+    </noscript>
+        <div id="app">
+        <h1> la prima app in Vue JS</h1>
+        </div>
+        {% render_bundle 'app' %}
+  
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "admin/change_form.html" %}
+{% load submit_buttons %}
+
+{% if save_on_top %}{% block submit_buttons_top %}{% submit_row_with_duplicate %}{% endblock %}{% endif %}
+
+{% block submit_buttons_bottom %}{% submit_row_with_duplicate %}{% endblock %}
+
+{% block after_related_objects %}
+{% if compatible_connectors %}
+  <div class="inline-group">
+    <div class="tabular inline-related">
+      <fieldset class="module">
+        <h2>Compatible Connectors</h2>
+        <table>
+          <thead><tr><th class="required">PART</th></tr></thead>
+          <tbody>
+            {% for connector in compatible_connectors %}
+              <tr class="form-row {% cycle "row1" "row2" %}">
+                <td>
+                  <a href="{% url 'admin:db_part_change' connector.id %}">
+                    {{ connector.name }} ({{ connector.connectivity }})
+                  </a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </fieldset>
+    </div>
+  </div>
+{% endif %}
+{% endblock %}

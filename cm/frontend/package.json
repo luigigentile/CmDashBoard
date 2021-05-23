@@ -1,0 +1,64 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.14",
+    "@nivo/bar": "^0.68.0",
+    "@nivo/core": "^0.68.0",
+    "@nivo/line": "^0.68.0",
+    "@nivo/pie": "^0.68.0",
+    "@rematch/core": "^2.0.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.5.0",
+    "graphql": "^15.5.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start-rewired": "react-app-rewired start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-rewired": "react-app-rewired build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:react-hooks/recommended"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react-app-rewired": "^2.1.8",
+    "webpack": "^4.44.2",
+    "webpack-bundle-tracker": "^0.4.3"
+  }
+}

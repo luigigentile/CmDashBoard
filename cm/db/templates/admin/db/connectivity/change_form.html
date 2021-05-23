@@ -1,0 +1,24 @@
+{% extends "admin/change_form.html" %}
+{% load submit_buttons %}
+
+{% block object-tools-items %}
+  <li>
+    <a href="<your-action-url>" style="background-color:red">
+     Upload file
+    </a>
+  </li>
+  {{ block.super }}
+{% endblock %}
+
+{% if save_on_top %}{% block submit_buttons_top %}{% submit_row_with_duplicate %}{% endblock %}{% endif %}
+
+{% block field_sets %}
+{% if request.GET.bulk_edit %}
+<a href="{{ request.path }}">Switch to non-bulk mode</a>
+{% else %}
+<a href="{{ request.path }}?bulk_edit=True">Switch to bulk mode</a>
+{% endif %}
+{{ block.super }}
+{% endblock %}
+
+{% block submit_buttons_bottom %}{% submit_row_with_duplicate %}{% endblock %}

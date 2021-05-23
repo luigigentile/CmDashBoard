@@ -1,0 +1,6 @@
+{% extends "admin/change_form.html" %}
+{% load submit_buttons %}
+
+{% if save_on_top %}{% block submit_buttons_top %}{% submit_row_with_duplicate %}{% endblock %}{% endif %}
+
+{% block submit_buttons_bottom %}{% submit_row_with_duplicate %}{% endblock %}

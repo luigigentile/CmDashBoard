@@ -1,0 +1,11 @@
+{% extends "admin/change_list.html" %}
+{% load admin_urls %}
+{% block object-tools-items %}
+
+{{ block.super }}
+
+<li>
+  <a href="{% url opts|admin_urlname:'add' %}?bulk_edit=True" class="grp-state-focus addlink">Add (Bulk)</a>
+</li>
+
+{% endblock %}
