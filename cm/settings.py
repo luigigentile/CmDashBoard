@@ -20,7 +20,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'ove33nrvvq86bn$x6p!#78+90)6@-84xt@xp209ng$vf=f46#z'
 SECRET_KEY=os.getenv('SECRET_KEY')
 
 
@@ -42,9 +41,9 @@ INSTALLED_APPS = [
     'cm.db',
     'strawberry.django',
     'webpack_loader',
+    'corsheaders',
 ]
 
-#    'corsheaders',
 
 #MIDDLEWARE = [
 #    'corsheaders.middleware.CorsMiddleware',
@@ -56,6 +55,7 @@ INSTALLED_APPS = [
 #
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -67,9 +67,9 @@ MIDDLEWARE = [
 ]
  
 
-# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = True
 # 
-# CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_CREDENTIALS = True
 
 
 
