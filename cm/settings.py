@@ -129,12 +129,12 @@ DATABASES = {
         'HOST': 'ec2-3-233-7-12.compute-1.amazonaws.com',
         'PORT': '5432',
         'USER': 'vqfcacpiqszmgv',
-        'PASSWORD': 'ba8f3e356b063be412f74bfc449483b1d00c828329ba8255626b90907e3a6abc',
+        'PASSWORD': os.getenv('DATABASE_PASSWORD'),
         'NAME': 'del4asn0dhmi9s',
     }
 }
 
-
+os.getenv('SECRET_KEY')
 
 
 
@@ -179,21 +179,11 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "frontend/assets"),
-    os.path.join(BASE_DIR, "frontend/staticfiles"),
-    os.path.join(BASE_DIR, "frontend/build"),
-    os.path.join(BASE_DIR, "frontend/build/static"),
+    os.path.join(BASE_DIR, "cm/frontend/build"),
+  
 ]
 
 
-
-
-
-# WEBPACK_LOADER = {
-#     'DEFAULT': {
-#         'STATS_FILE': os.path.join(BASE_DIR, '/cm/frontend', 'webpack-stats.json'),
-#     }
-# }
 
 
 WEBPACK_LOADER = {
@@ -208,14 +198,10 @@ WEBPACK_LOADER = {
 #     os.path.join(BASE_DIR, 'cm/frontend/build/static/'),
 # ]
 
-print(WEBPACK_LOADER)
-
-print(os.environ.get('DJANGO_SETTINGS_MODULE').split('.')[0])
-
 
 
 # The absolute path to the directory where collectstatic will collect static files for deployment.
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'cm/frontend/staticfiles')
 
 
 # Simplified static file serving.

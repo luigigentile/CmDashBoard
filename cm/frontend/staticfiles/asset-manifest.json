@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84f6d662.chunk.css",
+    "main.js": "/static/js/main.77839688.chunk.js",
+    "main.js.map": "/static/js/main.77839688.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f0517827.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f0517827.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.69d9e8f3.chunk.js": "/static/js/2.69d9e8f3.chunk.js",
+    "static/js/2.69d9e8f3.chunk.js.map": "/static/js/2.69d9e8f3.chunk.js.map",
+    "static/js/3.fef9c706.chunk.js": "/static/js/3.fef9c706.chunk.js",
+    "static/js/3.fef9c706.chunk.js.map": "/static/js/3.fef9c706.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.84f6d662.chunk.css.map": "/static/css/main.84f6d662.chunk.css.map",
+    "static/js/2.69d9e8f3.chunk.js.LICENSE.txt": "/static/js/2.69d9e8f3.chunk.js.LICENSE.txt",
+    "static/media/CMLogotrans.a8502858.png": "/static/media/CMLogotrans.a8502858.png",
+    "static/media/arrow-left-square.6adf75ef.svg": "/static/media/arrow-left-square.6adf75ef.svg",
+    "static/media/small-left.a6c9d91d.svg": "/static/media/small-left.a6c9d91d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0517827.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.69d9e8f3.chunk.js",
+    "static/css/main.84f6d662.chunk.css",
+    "static/js/main.77839688.chunk.js"
+  ]
+}
