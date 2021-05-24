@@ -129,7 +129,7 @@ DATABASES = {
         'HOST': 'ec2-3-233-7-12.compute-1.amazonaws.com',
         'PORT': '5432',
         'USER': 'vqfcacpiqszmgv',
-        'PASSWORD': os.getenv('DATABASE_PASSWORD'),
+        'PASSWORD': 'ba8f3e356b063be412f74bfc449483b1d00c828329ba8255626b90907e3a6abc',
         'NAME': 'del4asn0dhmi9s',
     }
 }
