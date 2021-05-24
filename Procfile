@@ -1,1 +1,1 @@
-web: gunicorn CmDashBoard.wsgi --log-file -
+web: gunicorn cm.wsgi --log-file -
