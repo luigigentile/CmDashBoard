@@ -1,1 +1,64 @@
-{"status":"done","publicPath":"/","chunks":{"null":[{"name":"static/js/0.chunk.js","publicPath":"/static/js/0.chunk.js","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/0.chunk.js"},{"name":"static/js/0.chunk.js.map","publicPath":"/static/js/0.chunk.js.map","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/0.chunk.js.map"}],"main":[{"name":"static/js/main.chunk.js","publicPath":"/static/js/main.chunk.js","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/main.chunk.js"},{"name":"static/js/main.chunk.js.map","publicPath":"/static/js/main.chunk.js.map","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/main.chunk.js.map"}],"runtime-main":[{"name":"static/js/bundle.js","publicPath":"/static/js/bundle.js","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/bundle.js"},{"name":"static/js/bundle.js.map","publicPath":"/static/js/bundle.js.map","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/bundle.js.map"}],"vendors~main":[{"name":"static/js/vendors~main.chunk.js","publicPath":"/static/js/vendors~main.chunk.js","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/vendors~main.chunk.js"},{"name":"static/js/vendors~main.chunk.js.map","publicPath":"/static/js/vendors~main.chunk.js.map","path":"/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/dist/static/js/vendors~main.chunk.js.map"}]}}
+{
+    "status": "done",
+    "publicPath": "/",
+    "chunks": {
+        "main": [
+            {
+                "name": "static/css/main.84f6d662.chunk.css",
+                "publicPath": "/static/css/main.84f6d662.chunk.css",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/css/main.84f6d662.chunk.css"
+            },
+            {
+                "name": "static/js/main.77839688.chunk.js",
+                "publicPath": "/static/js/main.77839688.chunk.js",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/main.77839688.chunk.js"
+            },
+            {
+                "name": "static/js/main.77839688.chunk.js.map",
+                "publicPath": "/static/js/main.77839688.chunk.js.map",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/main.77839688.chunk.js.map"
+            }
+        ],
+        "runtime-main": [
+            {
+                "name": "static/js/runtime-main.f0517827.js",
+                "publicPath": "/static/js/runtime-main.f0517827.js",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/runtime-main.f0517827.js"
+            },
+            {
+                "name": "static/js/runtime-main.f0517827.js.map",
+                "publicPath": "/static/js/runtime-main.f0517827.js.map",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/runtime-main.f0517827.js.map"
+            }
+        ],
+        "undefined": [
+            {
+                "name": "static/css/2.4c97ca4f.chunk.css",
+                "publicPath": "/static/css/2.4c97ca4f.chunk.css",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/css/2.4c97ca4f.chunk.css"
+            },
+            {
+                "name": "static/js/2.69d9e8f3.chunk.js",
+                "publicPath": "/static/js/2.69d9e8f3.chunk.js",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/2.69d9e8f3.chunk.js"
+            },
+            {
+                "name": "static/js/2.69d9e8f3.chunk.js.map",
+                "publicPath": "/static/js/2.69d9e8f3.chunk.js.map",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/2.69d9e8f3.chunk.js.map"
+            }
+        ],
+        "null": [
+            {
+                "name": "static/js/3.fef9c706.chunk.js",
+                "publicPath": "/static/js/3.fef9c706.chunk.js",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/3.fef9c706.chunk.js"
+            },
+            {
+                "name": "static/js/3.fef9c706.chunk.js.map",
+                "publicPath": "/static/js/3.fef9c706.chunk.js.map",
+                "path": "/mnt/c/lavori/CircuitMind-20-01-2021/AnalisiDataBaseWithStrawBerry/cm/cm/frontend/build/static/js/3.fef9c706.chunk.js.map"
+            }
+        ]
+    }
+}
